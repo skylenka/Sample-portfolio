@@ -53,7 +53,7 @@ li {
 }
 #bobo {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 27%;
   color: white;
   font-family: 'Lato', sans-serif;
@@ -68,8 +68,8 @@ li {
 @media (max-width: 770px) {
   #bobo {
     font-size: 1em;
-    top: 30%;
-    left: 25%;
+    top: 45%;
+    left: 35%;
   }
   .bonobo {
     font-size: 2em;
@@ -79,9 +79,7 @@ li {
 #video {
   width: 100%;
   margin: 0px;
-  background-image: url('../img/back.jpg');
-  background: fixed no-repeat center center;
-  background-size: cover;
+  position: relative;
 }
 #klip{
   left: 0px;
@@ -125,6 +123,17 @@ h2 {
   text-align: center;
   width: 100%;
   height: 700px;
+}
+@media (max-width: 420px) {
+  #work {
+    margin-top: 170px;
+  }
+  #about {
+    margin-top: 250px;
+  }
+  #img {
+    display: none;
+  }
 }
 
 #about {
@@ -211,7 +220,7 @@ footer {
   color: white;
   background-color: white;
   width: 100%;
-font-weight: 200;}
+  font-weight: 200;}
 
 .grow {
   flex-grow: 1;
