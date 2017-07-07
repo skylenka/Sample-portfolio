@@ -58,11 +58,24 @@ li {
   color: white;
   font-family: 'Lato', sans-serif;
   font-size: 1.5em;
+
 }
 .bonobo {
   margin-top: 0;
   font-size: 4em;
 }
+
+@media (max-width: 770px) {
+  #bobo {
+    font-size: 1em;
+    top: 30%;
+    left: 25%;
+  }
+  .bonobo {
+    font-size: 2em;
+  }
+}
+
 #video {
   width: 100%;
   margin: 0px;
@@ -111,7 +124,7 @@ h2 {
   font-family: 'Lato', sans-serif;
   text-align: center;
   width: 100%;
-  height: 300px;
+  height: 700px;
 }
 
 #about {
@@ -162,3 +175,57 @@ footer {
   text-align: center;
   font-weight: 100;
 }
+
+
+.grid-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto; }
+  .grid-container .row {
+    display: flex;
+    background-color: white; }
+    @media (max-width: 420px) {
+      .grid-container .row {
+        display: flex;
+        flex-wrap: wrap; }
+        .grid-container .row [class*='col-'] {
+          width: 100%; } }
+  .grid-container [class*='col-'] {
+    min-height: 100px;
+    background: black;
+    margin: 5px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 2em; }
+  .grid-container .col-1 {
+    width: 25%; }
+  .grid-container .col-2 {
+    width: 50%; }
+  .grid-container .col-3 {
+    width: 75%; }
+  .grid-container .col-4 {
+    width: 100%; }
+
+.crazy-layout {
+  margin-top: 20px;
+  color: white;
+  background-color: white;
+  width: 100%; }
+
+.grow {
+  flex-grow: 1;
+  min-height: 100px;
+  background: black;
+  margin: 5px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 2em; }
+
+.nogrow {
+  width: 30%;
+  min-height: 100px;
+  background: black;
+  margin: 5px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 2em; }
