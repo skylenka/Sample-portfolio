@@ -185,6 +185,9 @@ footer {
   font-weight: 100;
 }
 
+.crazy-layout a {
+  color: white;
+}
 
 .grid-container {
   width: 100%;

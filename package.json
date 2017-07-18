@@ -1,0 +1,24 @@
+{
+  "name": "maingallery",
+  "version": "1.0.0",
+  "description": "galeria masonry",
+  "main": "gallery.js",
+  "dependencies": {
+    "masonry-layout": "^4.2.0",
+    "imagesloaded": "^4.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylenka/Project.git"
+  },
+  "author": "Magdalena Olszewska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skylenka/Project/issues"
+  },
+  "homepage": "https://github.com/skylenka/Project#readme"
+}
