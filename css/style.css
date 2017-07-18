@@ -185,6 +185,10 @@ footer {
   font-weight: 100;
 }
 
+footer a {
+  color: white;
+}
+
 .crazy-layout a {
   color: white;
 }
